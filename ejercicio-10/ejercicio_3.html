@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10.3 - Formulario completo</title>
+    <meta name="description" content="Ejercicio de formulario completo">
+</head>
+<body>
+    <header>
+        <h1>Ejercicio 10.3 - Formulario completo</h1>
+        <p><a href="index.html">👈 Volver atrás</a></p>
+        <hr>
+    </header>
+    <main>
+        <form action="#" method="get">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre">
+            <p></p>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellido" placeholder="Escriba sus apellidos">
+            <p></p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Escriba su email">
+            <p></p>
+            <label for="entrada">Fecha de entrada:</label>
+            <input type="date" id="entrada" name="entrada">
+            <p></p>
+            <label for="salida">Fecha de salida:</label>
+            <input type="date" id="salida" name="salida">
+            <p></p>
+            <label for="personas">Número de perosonas:</label>
+            <input type="number" name="personas" id="personas">
+            <p></p>
+            <label for="habitacion">Tipo de habitación:</label>
+            <select name="habitacion" id="habitacion">
+                <option value="">--Seleccione--</option>
+                <option value="1">Individual</option>
+                <option value="2">Doble</option>
+                <option value="3">Suite</option>
+            </select>
+            <p></p>
+            <label for="lista">Ciudad de origen:</label>
+            <input type="list" name="ciudad_origen" id="cieudad_origen">
+            <datalist id="ciudad_origen">
+                <option value="España">
+                <option value="Mexico">
+                <option value="Argentina">
+                <option value="Portugal">
+                <option value="Italia">
+            </datalist>
+            <p></p>
+            <label for="terminos">Acepto las condiciones</label>
+            <input type="checkbox" id="terminos" name="terminos">
+            <p></p>
+            <button type="submit">Reservar</button>
+        </form>
+    </main>
+</body>
+</html>

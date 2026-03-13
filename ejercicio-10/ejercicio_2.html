@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10.2 - Formulario de registro</title>
+    <meta name="description" content="Ejercicio de formulario de registro">
+</head>
+<body>
+    <header>
+        <h1>Ejercicio 10.2 - Formulario de registro</h1>
+        <p><a href="index.html">👈 Volver atrás</a></p>
+        <hr>
+    </header>
+    <main>
+        <form action="#" method="get">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre">
+            <p></p>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellido" placeholder="Escriba sus apellidos">
+            <p></p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Escriba su email">
+            <p></p>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña" placeholder="Escriba su contraseña">
+            <p></p>
+            <label for="fecha_nacimiento">Fecha de Naciemiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+            <p></p>
+            <input type="radio" id="hombre" name="genero" value="hombre">
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer" name="genero" value="mujer">
+            <label for="mujer">Mujer</label>
+            <p></p>
+            <label for="pais">Seleccione un país:</label>
+            <select name="pais" id="pais">
+                <option value="-">--Seleccione--</option>
+                <option value="es">España</option>
+                <option value="mx">Mexico</option>
+                <option value="BR">Brasil</option>
+                <option value="CL">Chile</option>
+                <option value="CO">Colombia</option>
+            </select>
+            <p></p>
+            <label for="terminos">Acepto las condiciones</label>
+            <input type="checkbox" id="terminos" name="terminos">
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
