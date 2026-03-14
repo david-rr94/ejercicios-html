@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 11.1 - Imágenes en la web </title>
+    <meta name="description" content="Ejercicio con figure, figcaption, img, picture y source">
+</head>
+<body>
+    <header>
+        <h1>Ejercicio 11.1 - Imágenes en la web</h1>
+        <p><a href="index.html">👈 Volver atrás</a></p>
+        <hr>
+    </header>
+    <main>
+        <h2>Ejemplos con figure e img</h2>
+        <figure>
+            <img src="https://picsum.photos/id/13/200/300" alt="playa" width="300" height="300">
+            <figcaption>Playa al atardecer</figcaption>
+        </figure>
+        <figure>
+            <img src="https://picsum.photos/id/15/400/200" alt="catarata" width="400" height="200">
+            <figcaption>Catarata en el bosque</figcaption>
+        </figure>
+        <figure>
+            <img src="https://picsum.photos/id/50/500/300" alt="pajaro" width="500" height="300">
+            <figcaption>Pájaro entre dos barcos</figcaption>
+        </figure>
+        <h2>Ejemplos con picture y source </h2>
+        <picture>
+            <source media="(min-width: 1000px)" srcset="https://picsum.photos/id/4/1500/900">
+            <source media="(min-width: 500px)" srcset="https://picsum.photos/id/19/750/400">
+            <img src="https://picsum.photos/id/15/300/200" alt="portatil">
+        </picture>
+    </main>
+
+</body>
+
+</html>

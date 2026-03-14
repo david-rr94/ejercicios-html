@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 11.3 - Etiquetas interactivas</title>
+    <meta name="description" content="Ejercicios con details, summary, dialog y popover">
+</head>
+<body>
+    <header>
+        <h1>Ejercicio 11.3 - Etiquetas interactivas</h1>
+        <p><a href="index.html">👈 Volver atrás</a></p>
+        <hr>
+    </header>
+    <main>
+        <h2>Details y summary</h2>
+        <details>
+            <summary>¿Qué es HTML?</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate facere nulla rerum mollitia itaque. Atque repellendus fugiat et corporis sunt harum. Quod dicta sapiente temporibus nihil sed, necessitatibus ullam non.</p>
+        </details>
+        <h2>Dialog</h2>
+        <dialog id="miDialog">
+            <p>Esto es un modal</p>
+            <button onclick="document.getElementById('miDialog').close()">Cerrar</button>
+        </dialog>
+        <button onclick="document.getElementById('miDialog').showModal()">Abrir modal</button>
+        <h2>Popover</h2>
+        <button popovertarget="miPopover">Abrir popover</button>
+
+<div id="miPopover" popover>
+    <p>Esto es un popover</p>
+</div>
+    </main>
+</body>
+</html>
